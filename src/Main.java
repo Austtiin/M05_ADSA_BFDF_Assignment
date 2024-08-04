@@ -47,6 +47,8 @@
 
 public class Main {
     public static void main(String[] args) {
+
+        // Create a graph object and add the edges.
         Graph graph = new Graph(6);
         graph.addEdge(0, 1);
         graph.addEdge(0, 2);
@@ -54,12 +56,29 @@ public class Main {
         graph.addEdge(2, 4);
         graph.addEdge(2, 5);
 
+        // Print the BFS and DFS traversal of the graph.
         System.out.println("BFS");
         graph.BFS(0);
         System.out.println("\nDFS");
         graph.DFS(0);
 
+        // Create a graph object and add the edges.
+        Graph graph2 = new Graph(11);
+        graph2.addEdge(0, 1);
+        graph2.addEdge(0, 2);
+        graph2.addEdge(1, 3);
+        graph2.addEdge(1, 4);
+        graph2.addEdge(2, 5);
+        graph2.addEdge(2, 6);
+        graph2.addEdge(3, 7);
+        graph2.addEdge(3, 8);
+        graph2.addEdge(4, 9);
+        graph2.addEdge(4, 10);
 
+        // Print the BFS and DFS traversal of the graph.
+        System.out.println("\nBFS");
+        graph2.BFS(0);
+        System.out.println("\nDFS");
+        graph2.DFS(0);
     }
-
 }
