@@ -89,30 +89,30 @@ public class Main {
         System.out.println("\n\n### Module 05 Content");
 
         // Question 1
-        System.out.println("\n#### Question 1");
+        System.out.println("\n### Question 1");
         System.out.println("\n**Describe differences between breadth-first and depth-first searches**");
-        System.out.println("\n- **Breadth-First Search (BFS)**:");
+        System.out.println("\n- *Breadth-First Search (BFS)*:");
         System.out.println("  - BFS explores all the nodes at the present depth level before moving on to the nodes at the next depth level.");
         System.out.println("  - It uses a queue data structure to keep track of the nodes to be explored.");
         System.out.println("  - BFS is useful for finding the shortest path in an unweighted graph.");
 
 
-        System.out.println("\n- **Depth-First Search (DFS)**:");
+        System.out.println("\n- *Depth-First Search (DFS)**:");
         System.out.println("  - DFS explores as far as possible along each branch before backtracking.");
-        System.out.println("  - It uses a stack data structure, either explicitly or implicitly through recursion.");
-        System.out.println("  - DFS is useful for pathfinding and topological sorting.");
+        System.out.println("  -- It uses a stack data structure, either explicitly or implicitly through recursion.");
+        System.out.println("  -- DFS is useful for pathfinding and topological sorting");
 
 
         //Sequence for the graph
-        System.out.println("\n**Provide a sequence for each of the searches for the following graph:**");
+        System.out.println("\n*Provide a sequence for each of the searches for the following graph:*");
         System.out.println("\n    A");
         System.out.println("   / \\");
         System.out.println("  B   C");
         System.out.println(" /   / \\");
         System.out.println("D   E   F");
 
-        System.out.println("\n- **BFS Sequence**: A, B, C, D, E, F");
-        System.out.println("\n- **DFS Sequence**: A, B, D, C, E, F");
+        System.out.println("\n- *BFS Sequence**: A, B, C, D, E, F");
+        System.out.println("\n- *DFS Sequence**: A, B, D, C, E, F");
 
 
         //Question 2
